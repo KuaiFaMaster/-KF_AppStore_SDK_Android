@@ -95,3 +95,7 @@ dependencies {
 ### 详细接入配置
 
 [详细文档请查看](KFAPPCenterAccess.md)
+
+# 错误处理
+
+如果出现构建问题，请检查是否符合配置，并连接仓库正常

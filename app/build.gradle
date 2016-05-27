@@ -36,6 +36,3 @@ dependencies {
     compile group: 'com.umeng.analytics', name: 'analytics', version: '6.0.0'
     compile 'com.kf.appstore.sdk:AppStore-Android:0.0.6@aar'
 }
-
-// kfAPKDebug kfAPKRelease
-apply from: "https://coding.net/u/sinlovppt/p/Gradle_Zoo/git/raw/master/androidUtils/KFAndroidUtils/kfOutBuildApk.gradle"
