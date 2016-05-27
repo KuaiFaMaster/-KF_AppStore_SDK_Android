@@ -1,33 +1,33 @@
-[TOC]
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kf.kfappstoredemo">
 
-# 接入准备
-
-* 请确认开发环境
-* 导入SDK
-* 接入到应用
-
-# 配置
-
-* 编码 UTF-8
-* jdk 1.7 及以上
-* Android Studio 1.5.1 及以上
-* Gradle 2.8 及以上
-
-## 权限配置
-
-```xml
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-```
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
-## AndroidManifest 配置
 
-在`module`的`AndroidManifest.xml` 中按如下配置
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity
+            android:name=".DemoMainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-```xml
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.kf.appstore.sdk.ui.KFGameCenterActivity"
             android:launchMode="singleTask"
@@ -54,43 +54,6 @@
         <service
             android:name="com.kf.appstore.sdk.service.KFDownloadService"
             android:stopWithTask="true" />
+    </application>
 
-```
-
-如出现报错合并主题失败请在`module`的`AndroidManifest.xml`中加入
-
-```xml
-<manifest
-	...
-	xmlns:tools="http://schemas.android.com/tools">
-	<application
-		...
-		tools:replace="android:theme">
-	</application>
 </manifest>
-```
-
-# Application 配置
-
-在 Application 的 onCreate 方法中添加
-
-```java
-KFAppStoreApi.init(this, new InitCallback() {
-    @Override
-    public void initResponse(int code, String msg) {
-        if (KFConstants.Init.INIT_SUCCESS == code) {
-            //Success
-        } else if (KFConstants.Init.INIT_fail == code) {
-            //fail
-        }
-    }
-});
-```
-
-## 进入下载中心
-
-`**请确认初始化成功后使用SDK**`
-
-```java
-KFAppStoreApi.enterAppStore(MainActivity.this);
-```

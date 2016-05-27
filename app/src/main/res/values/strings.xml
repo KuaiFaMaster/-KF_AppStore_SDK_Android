@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KFAppstoreDemo</string>
+    <string name="btn_test_app_store">进入快发应用中心</string>
+</resources>
