@@ -86,7 +86,7 @@ dependencies {
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '0.0.5'
     compile group: 'com.umeng.analytics', name: 'analytics', version: '6.0.0'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.0.2@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.0@aar'
 }
 ```
 
