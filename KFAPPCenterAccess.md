@@ -37,12 +37,8 @@
             android:name="com.kf.appstore.sdk.ui.KFAppDetailActivity"
             android:label="@string/title_activity_kfapp_detail"
             android:launchMode="singleTask"
-            android:parentActivityName="com.kf.appstore.sdk.ui.KFGameCenterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/KF.FullScreen.Write">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kf.appstore.sdk.ui.KFGameCenterActivity" />
         </activity>
         <activity
             android:name="com.kf.appstore.sdk.ui.KFDownloadManageActivity"
