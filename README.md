@@ -9,6 +9,11 @@
 
 # 文档说明
 
+## 发布版本
+
+* 0.1.4
+* compile 'com.kf.appstore.sdk:AppStore-Android:0.1.4@aar'
+
 ## 环境要求
 
 ### 快发应用中心 SDK 接入要求
@@ -84,9 +89,9 @@ dependencies {
     compile 'org.xutils:xutils:3.3.34'
     compile group: 'com.google.code.gson', name: 'gson', version: '2.6.2'
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '0.0.5'
-    compile group: 'com.umeng.analytics', name: 'analytics', version: '6.0.0'
+    compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.0@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.4@aar'
 }
 ```
 
@@ -95,7 +100,3 @@ dependencies {
 ### 详细接入配置
 
 [详细文档请查看](KFAPPCenterAccess.md)
-
-# 错误处理
-
-如果出现构建问题，请检查是否符合配置，并连接仓库正常

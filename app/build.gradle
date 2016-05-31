@@ -8,8 +8,8 @@ android {
         applicationId "com.kf.kfappstoredemo"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 6
-        versionName "0.0.6"
+        versionCode 10
+        versionName "0.1.4"
     }
     buildTypes {
         release {
@@ -33,6 +33,6 @@ dependencies {
     compile 'org.xutils:xutils:3.3.34'
     compile group: 'com.google.code.gson', name: 'gson', version: '2.6.2'
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '0.0.5'
-    compile group: 'com.umeng.analytics', name: 'analytics', version: '6.0.0'
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.0@aar'
+    compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.4@aar'
 }
