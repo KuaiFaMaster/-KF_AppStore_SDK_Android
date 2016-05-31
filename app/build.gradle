@@ -8,8 +8,8 @@ android {
         applicationId "com.kf.kfappstoredemo"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 10
-        versionName "0.1.4"
+        versionCode 11
+        versionName "0.1.5"
     }
     buildTypes {
         release {
@@ -32,7 +32,7 @@ dependencies {
     compile 'cn.bingoogolapple:bga-swipeitemlayout:1.0.4@aar'
     compile 'org.xutils:xutils:3.3.34'
     compile group: 'com.google.code.gson', name: 'gson', version: '2.6.2'
-    compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '0.0.5'
+    compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.1'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     compile 'com.kf.appstore.sdk:AppStore-Android:0.1.4@aar'
 }
