@@ -11,8 +11,8 @@
 
 ## 发布版本
 
-* 0.1.4
-* compile 'com.kf.appstore.sdk:AppStore-Android:0.1.4@aar'
+* 0.1.5
+* compile 'com.kf.appstore.sdk:AppStore-Android:0.1.5@aar'
 
 ## 环境要求
 
@@ -91,7 +91,7 @@ dependencies {
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.1'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.4@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.5@aar'
 }
 ```
 
