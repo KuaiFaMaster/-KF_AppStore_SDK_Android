@@ -88,7 +88,7 @@ dependencies {
     compile 'cn.bingoogolapple:bga-swipeitemlayout:1.0.4@aar'
     compile 'org.xutils:xutils:3.3.34'
     compile group: 'com.google.code.gson', name: 'gson', version: '2.6.2'
-    compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.3'
+    compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.4'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
     compile 'com.kf.appstore.sdk:AppStore-Android:0.1.6@aar'
