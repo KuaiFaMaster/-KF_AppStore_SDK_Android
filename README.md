@@ -11,8 +11,8 @@
 
 ## 发布版本
 
-* 0.1.5
-* compile 'com.kf.appstore.sdk:AppStore-Android:0.1.5@aar'
+* 0.1.6
+* compile 'com.kf.appstore.sdk:AppStore-Android:0.1.6@aar'
 
 ## 环境要求
 
@@ -24,8 +24,8 @@
 |Android SDK|API 14|
 |Gradle|2.6|
 |com.android.tools.build:gradle|1.3.0|
-|com.android.support:v4|23.3.0|
-|com.android.support:appcompat-v7|23.3.0|
+|com.android.support:v4|23.1.1|
+|com.android.support:appcompat-v7|23.1.1|
 |minSdkVersion|14|
 |targetSdkVersion|23|
 
@@ -37,8 +37,8 @@
 |Android SDK|API 14|
 |Gradle|2.8|
 |com.android.tools.build:gradle|1.3.0|
-|com.android.support:v4|23.3.0|
-|com.android.support:appcompat-v7|23.3.0|
+|com.android.support:v4|23.1.1|
+|com.android.support:appcompat-v7|23.1.1|
 |minSdkVersion|14|
 |targetSdkVersion|23|
 
@@ -50,9 +50,9 @@
 |Android SDK|API 23|
 |Gradle|2.8|
 |com.android.tools.build:gradle|1.5.0|
-|com.android.support:v4|23.3.0|
-|com.android.support:appcompat-v7|23.3.0|
-|com.android.support:design|23.3.0|
+|com.android.support:v4|23.1.1|
+|com.android.support:appcompat-v7|23.1.1|
+|com.android.support:design|23.1.1|
 |minSdkVersion|14|
 |targetSdkVersion|23|
 
@@ -78,9 +78,9 @@ allprojects {
 ```gradle
 dependencies {
     // third library start
-    compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.android.support:design:23.3.0'
-    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'cn.bingoogolapple:bga-refreshlayout:1.1.4@aar'
     compile 'cn.bingoogolapple:bga-banner:2.0.4@aar'
@@ -91,7 +91,7 @@ dependencies {
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.3'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.5@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.6@aar'
 }
 ```
 
