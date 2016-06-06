@@ -8,8 +8,8 @@ android {
         applicationId "com.kf.kfappstoredemo"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 14
-        versionName "0.1.7"
+        versionCode 15
+        versionName "0.2.1"
     }
     buildTypes {
         release {
@@ -37,5 +37,5 @@ dependencies {
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.4'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.1.7@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.2.1@aar'
 }
