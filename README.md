@@ -100,3 +100,7 @@ dependencies {
 ### 详细接入配置
 
 [详细文档请查看](KFAPPCenterAccess.md)
+
+### 混淆配置
+
+[module app 中的混淆文件](app/proguard-rules.pro)
