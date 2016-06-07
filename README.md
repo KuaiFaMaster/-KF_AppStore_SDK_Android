@@ -11,8 +11,8 @@
 
 ## 发布版本
 
-* 0.2.1
-* compile 'com.kf.appstore.sdk:AppStore-Android:0.2.1@aar'
+* 0.2.3
+* compile 'com.kf.appstore.sdk:AppStore-Android:0.2.3@aar'
 
 ## 环境要求
 
@@ -81,8 +81,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
     compile 'com.nineoldandroids:library:2.4.0'
-    compile 'cn.bingoogolapple:bga-refreshlayout:1.1.4@aar'
     compile 'cn.bingoogolapple:bga-banner:2.0.4@aar'
     compile 'cn.bingoogolapple:bga-adapter:1.0.9@aar'
     compile 'cn.bingoogolapple:bga-swipeitemlayout:1.0.4@aar'
@@ -91,11 +91,11 @@ dependencies {
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.4'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.2.1@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:0.2.3@aar'
 }
 ```
 
-更新版本，修改`0.2.1@aar`到新版本，如果想简单使用，不用关心版本，可以修改为`latest.integration@aar`
+更新版本，修改`0.2.3@aar`到新版本，如果想简单使用，不用关心版本，可以修改为`latest.integration@aar`
 
 ### 详细接入配置
 
