@@ -11,8 +11,8 @@
 
 ## 发布版本
 
-* 0.2.3
-* compile 'com.kf.appstore.sdk:AppStore-Android:0.2.3@aar'
+* 1.0.0
+* compile 'com.kf.appstore.sdk:AppStore-Android:1.0.0@aar'
 
 ## 环境要求
 
@@ -91,11 +91,11 @@ dependencies {
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.4'
     compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:0.2.3@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:1.0.0@aar'
 }
 ```
 
-更新版本，修改`0.2.3@aar`到新版本，如果想简单使用，不用关心版本，可以修改为`latest.integration@aar`
+更新版本，修改`1.0.0@aar`到新版本，如果想简单使用，不用关心版本，可以修改为`latest.integration@aar`
 
 ### 详细接入配置
 
