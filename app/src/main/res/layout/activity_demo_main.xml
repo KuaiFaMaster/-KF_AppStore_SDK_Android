@@ -10,8 +10,9 @@
     tools:context="com.kf.kfappstoredemo.DemoMainActivity">
 
     <Button
+        android:id="@+id/btn_skip_kf_app_store"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:onClick="onSkipKFAppStore"
-        android:text="@string/btn_test_app_store"/>
+        android:text="@string/btn_test_app_store"
+        android:visibility="gone" />
 </RelativeLayout>

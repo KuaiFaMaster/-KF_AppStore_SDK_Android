@@ -90,3 +90,14 @@ KFAppStoreApi.init(this, new InitCallback() {
 ```java
 KFAppStoreApi.enterAppStore(MainActivity.this);
 ```
+
+# Notes
+
+## 如果不能在Application中使用 `KFAppStoreApi.init`
+
+请按照Demo中的例子来初始化
+
+[DemoMainActivity.java](/app/src/main/java/com/kf/kfappstoredemo/DemoMainActivity.java)
+
+核心方法 `useSDKInActivity()`
+
