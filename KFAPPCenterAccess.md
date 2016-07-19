@@ -38,14 +38,20 @@
             android:label="@string/title_activity_kfapp_detail"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
-            android:theme="@style/KF.FullScreen.Write">
-        </activity>
+            android:theme="@style/KF.FullScreen.Write"/>
         <activity
             android:name="com.kf.appstore.sdk.ui.KFDownloadManageActivity"
             android:label="@string/title_activity_kfdownload_manage"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/KF.FullScreen.Write" />
+        <activity
+            android:name="com.kf.appstore.sdk.ui.KFFeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:theme="@style/KF.FullScreen.Write"/>
 
         <service
             android:name="com.kf.appstore.sdk.service.KFDownloadService"
@@ -90,14 +96,3 @@ KFAppStoreApi.init(this, new InitCallback() {
 ```java
 KFAppStoreApi.enterAppStore(MainActivity.this);
 ```
-
-# Notes
-
-## 如果不能在Application中使用 `KFAppStoreApi.init`
-
-请按照Demo中的例子来初始化
-
-[DemoMainActivity.java](/app/src/main/java/com/kf/kfappstoredemo/DemoMainActivity.java)
-
-核心方法 `useSDKInActivity()`
-

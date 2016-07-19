@@ -46,6 +46,13 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/KF.FullScreen.Write" />
+        <activity
+            android:name="com.kf.appstore.sdk.ui.KFFeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:theme="@style/KF.FullScreen.Write"/>
 
         <service
             android:name="com.kf.appstore.sdk.service.KFDownloadService"

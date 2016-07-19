@@ -11,8 +11,29 @@
 
 ## 发布版本
 
-* 1.0.1
-* compile 'com.kf.appstore.sdk:AppStore-Android:1.0.1@aar'
+* 1.1.3
+* compile 'com.kf.appstore.sdk:AppStore-Android:1.1.3@aar'
+
+
+## Tips
+
+- 1.1.3 需要在Manifest中增加
+
+```xml
+        <activity
+            android:name="com.kf.appstore.sdk.ui.KFFeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:theme="@style/KF.FullScreen.Write"/>
+```
+
+依赖库更新
+
+```sh
+compile 'com.dataeye.sdk.appsdk:appsdk:2.5.5@aar'
+```
 
 ## 环境要求
 
@@ -81,7 +102,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
-    compile 'com.android.support:support-v4:23.1.1'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'cn.bingoogolapple:bga-banner:2.0.4@aar'
     compile 'cn.bingoogolapple:bga-adapter:1.0.9@aar'
@@ -89,18 +109,14 @@ dependencies {
     compile 'org.xutils:xutils:3.3.34'
     compile group: 'com.google.code.gson', name: 'gson', version: '2.6.2'
     compile group: 'mdl.sinlov.imagetoolbox', name: 'imagetoolbox', version: '1.0.4'
-    compile 'com.dataeye.sdk.appsdk:appsdk:2.5.2@aar'
+    compile 'com.dataeye.sdk.appsdk:appsdk:2.5.5@aar'
     // third library end
-    compile 'com.kf.appstore.sdk:AppStore-Android:1.0.1@aar'
+    compile 'com.kf.appstore.sdk:AppStore-Android:1.1.3@aar'
 }
 ```
 
-更新版本，修改`1.0.1@aar`到新版本，如果想简单使用，不用关心版本，可以修改为`latest.integration@aar`
+更新版本，修改`1.1.3@aar`到新版本，如果想简单使用，不用关心版本，可以修改为`latest.integration@aar`
 
 ### 详细接入配置
 
 [详细文档请查看](KFAPPCenterAccess.md)
-
-### 混淆配置
-
-[module app 中的混淆文件](app/proguard-rules.pro)
